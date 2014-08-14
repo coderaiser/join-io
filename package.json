@@ -16,9 +16,10 @@
     "pipe"
   ],
   "dependencies": {
+    "minify": "~0.7.1",
     "pipe-io": "~0.9.3",
-    "util-io": "~1.2.3",
-    "ponse"  : "~1.0.0"
+    "ponse": "~1.0.0",
+    "util-io": "~1.2.3"
   },
   "devDependencies": {},
   "license": "MIT"

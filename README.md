@@ -32,7 +32,10 @@ var join        = require('join-io'),
     port        = 1337,
     ip          = '0.0.0.0';
     
-app.use(join());
+app.use(join({
+    dir: __dirname
+}));
+
 app.use(express.static(__dirname));
 
 server.listen(port, ip);
