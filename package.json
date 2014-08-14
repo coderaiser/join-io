@@ -1,0 +1,25 @@
+{
+  "name": "join-io",
+  "version": "1.0.0",
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
+  "description": "Join files on a fly to reduce requests count",
+  "homepage": "http://github.com/coderaiser/join-io",
+  "main": "lib/join.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coderaiser/join-io.git"
+  },
+  "keywords": [
+    "files",
+    "join",
+    "request",
+    "pipe"
+  ],
+  "dependencies": {
+    "pipe-io": "~0.9.3",
+    "util-io": "~1.2.3",
+    "ponse"  : "~1.0.0"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}
