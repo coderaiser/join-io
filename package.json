@@ -18,7 +18,7 @@
   ],
   "dependencies": {
     "files-io": "~1.1.0",
-    "minify": "~0.8.0",
+    "minify": "~1.0.0",
     "pipe-io": "~0.9.3",
     "ponse": "~1.0.0",
     "util-io": "~1.2.3"
