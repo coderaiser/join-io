@@ -24,6 +24,5 @@
     "ponse": "~1.0.0",
     "util-io": "~1.3.0"
   },
-  "devDependencies": {},
   "license": "MIT"
 }
