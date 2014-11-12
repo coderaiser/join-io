@@ -1,3 +1,10 @@
+2014.11.12, v1.1.0
+
+feature:
+- (package) minify v1.1.0
+- (gitignore) add npm-debug
+
+
 2014.11.3, v1.0.12
 
 feature:
