@@ -19,7 +19,7 @@
   ],
   "dependencies": {
     "files-io": "~1.2.0",
-    "minify": "~1.0.0",
+    "minify": "~1.1.0",
     "ponse": "~1.2.0",
     "util-io": "~1.6.0"
   },
