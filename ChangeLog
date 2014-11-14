@@ -1,3 +1,10 @@
+2014.11.14, v1.2.0
+
+feature:
+- (join) regExp: match -> test
+- (package) minify v1.3.0
+
+
 2014.11.12, v1.1.0
 
 feature:
