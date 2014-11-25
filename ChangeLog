@@ -1,3 +1,9 @@
+2014.11.25, v1.2.2
+
+feature:
+- (package) util-io -> execon
+
+
 2014.11.20, v1.2.1
 
 fix:
