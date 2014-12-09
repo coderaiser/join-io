@@ -1,3 +1,10 @@
+2014.12.09, v1.3.2
+
+feature:
+- (join) speed up: RegExp.test -> indexOf
+- (join) speed up: RegExp.test -> primitive comparison
+
+
 2014.12.08, v1.3.1
 
 feature:
