@@ -1,7 +1,7 @@
 Join-io
 =======
 
-Join stream of many files and pipe it to one response.
+Join files on a fly to reduce requests count.
 
 
 ## Install
