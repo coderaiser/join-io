@@ -33,7 +33,8 @@ var join        = require('join-io'),
     ip          = '0.0.0.0';
     
 app.use(join({
-    dir: __dirname
+    dir: __dirname,
+    minify: false /* default */
 }));
 
 app.use(express.static(__dirname));
