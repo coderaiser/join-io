@@ -8,16 +8,16 @@ Join files on a fly to reduce requests count.
 
 `npm i join-io --save`
 
-## Hot to use?
-
-`Join-io` could be used as express middleware.
-
 ## How it works?
 
 `join-io` it's middleware that works with streams: open files and pipe them to `response` one-by-one,
 when everything is done, stream is closing. `join-io` based on readPipe function of [files-io](https://github.com/coderaiser/files-io "Files-io").
 
 [jsDelivr](https://jsdelivr.com/ "jsDelivr") works in similar way: [load Multiple files with a single HTTP request](https://www.maxcdn.com/blog/jsdelivr-better/ "load Multiple files with a single HTTP").
+
+## Hot to use?
+
+`Join-io` could be used as express middleware.
 
 ### Client
 
