@@ -15,7 +15,7 @@ when everything is done, stream is closing. `join-io` based on readPipe function
 
 [jsDelivr](https://jsdelivr.com/ "jsDelivr") works in similar way: [load Multiple files with a single HTTP request](https://www.maxcdn.com/blog/jsdelivr-better/ "load Multiple files with a single HTTP").
 
-## Hot to use?
+## How to use?
 
 `Join-io` could be used as express middleware.
 
