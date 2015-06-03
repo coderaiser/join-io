@@ -1,3 +1,9 @@
+2015.06.03, v1.3.5
+
+fix:
+- (join) uglify: exec.each -> exec.parallel
+
+
 2015.06.03, v1.3.4
 
 feature:

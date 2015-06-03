@@ -1,6 +1,6 @@
 {
   "name": "join-io",
-  "version": "1.3.4",
+  "version": "1.3.5",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "Join files on a fly to reduce requests count",
   "homepage": "http://github.com/coderaiser/join-io",
