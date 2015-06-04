@@ -1,3 +1,9 @@
+2015.06.04, v1.4.0
+
+feature:
+- (join) add ability to put "/join/join.js" on the middle of "/join:" request
+
+
 2015.06.03, v1.3.5
 
 fix:
