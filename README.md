@@ -26,6 +26,25 @@ when everything is done, stream is closing. `join-io` based on readPipe function
 <script src="/join:/lib/client.js:/lib/util.js:/lib/jquery.js"></script>
 ```
 
+#### Join.js
+
+You could build join urls dynamically. Load `/join/join.js` library for this purpose.
+
+```html
+<script src="/join/join.js"></script>
+<script>
+    join(['lib/client', 'lib/util.js']);
+</script>
+```
+
+To decrease requests qount you could make `/join/join.js` part of request:
+
+```html
+<script src="/join:/lib/client.js:/lib/util.js:/join/join.js"></script>
+```
+
+Instead of `/join` you could use any prefix you like (don't forget to set it on the server side).
+
 ### Server
 
 ```js
@@ -41,7 +60,8 @@ var join        = require('join-io'),
     
 app.use(join({
     dir: __dirname,
-    minify: false /* default */
+    prefix: '/join',    /* default */
+    minify: false       /* default */
 }));
 
 app.use(express.static(__dirname));
