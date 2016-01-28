@@ -1,3 +1,9 @@
+2016.01.28, v1.4.3
+
+fix:
+- (join) parse: add support of join.js urls with no "/" at the beginning'
+
+
 2015.10.26, v1.4.2
 
 feature:
