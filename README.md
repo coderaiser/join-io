@@ -37,7 +37,7 @@ You could build join urls dynamically. Load `/join/join.js` library for this pur
 </script>
 ```
 
-To decrease requests qount you could make `/join/join.js` part of request:
+To decrease requests count you could make `/join/join.js` part of request:
 
 ```html
 <script src="/join:/lib/client.js:/lib/util.js:/join/join.js"></script>
