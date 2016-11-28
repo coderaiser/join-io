@@ -1,3 +1,10 @@
+2016.11.28, v1.4.5
+
+fix:
+- (join) Optional prefix should be set earlier
+- docs(readme) qount -> count
+
+
 2016.01.29, v1.4.4
 
 fix:
