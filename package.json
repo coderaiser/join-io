@@ -18,10 +18,10 @@
     "minify"
   ],
   "dependencies": {
-    "execon": "~1.2.0",
-    "files-io": "~1.2.0",
-    "minify": "~2.0.0",
-    "ponse": "~1.4.1"
+    "execon": "^1.2.0",
+    "files-io": "^1.2.0",
+    "minify": "^2.0.0",
+    "ponse": "^1.4.1"
   },
   "license": "MIT"
 }
