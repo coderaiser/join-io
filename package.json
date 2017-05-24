@@ -5,6 +5,11 @@
   "description": "Join files on a fly to reduce requests count",
   "homepage": "http://github.com/coderaiser/join-io",
   "main": "lib/join.js",
+  "scripts": {
+    "lint:bin": "eslint --rule 'no-console:0' bin",
+    "lint:lib": "eslint lib test",
+    "lint": "redrun lint:*"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/coderaiser/join-io.git"
@@ -18,10 +23,14 @@
     "minify"
   ],
   "dependencies": {
+    "currify": "^2.0.4",
     "execon": "^1.2.0",
     "files-io": "^1.2.0",
     "minify": "^2.0.0",
     "ponse": "^1.4.1"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  }
 }
