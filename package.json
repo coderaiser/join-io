@@ -6,8 +6,7 @@
   "homepage": "http://github.com/coderaiser/join-io",
   "main": "lib/join.js",
   "scripts": {
-    "lint:bin": "eslint --rule 'no-console:0' bin",
-    "lint:lib": "eslint lib test",
+    "lint:lib": "eslint lib",
     "lint": "redrun lint:*"
   },
   "repository": {
@@ -32,6 +31,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^4.2.0"
+    "eslint": "^4.2.0",
+    "eslint-plugin-node": "^5.1.0"
   }
 }
