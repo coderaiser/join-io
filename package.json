@@ -29,6 +29,9 @@
     "minify": "^2.0.0",
     "ponse": "^1.4.1"
   },
+  "engines": {
+    "node": ">=4"
+  },
   "license": "MIT",
   "devDependencies": {
     "eslint": "^3.19.0"
