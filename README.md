@@ -48,20 +48,19 @@ Instead of `/join` you could use any prefix you like (don't forget to set it on 
 ### Server
 
 ```js
-var join        = require('join-io'),
-    http        = require('http'),
-    express     = require('express'),
-    
-    app         = express(),
-    server      = http.createServer(app),
-    
-    port        = 1337,
-    ip          = '0.0.0.0';
-    
+const join = require('join-io');
+const http = require('http');
+const express = require('express');
+
+const app = express();
+const server = http.createServer(app);
+
+const port = 1337;
+const ip = '0.0.0.0';
+
 app.use(join({
     dir: __dirname,
     prefix: '/join',    /* default */
-    minify: false       /* default */
 }));
 
 app.use(express.static(__dirname));
