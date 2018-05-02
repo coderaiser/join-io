@@ -21,7 +21,7 @@
     "express"
   ],
   "dependencies": {
-    "files-io": "^1.2.0",
+    "files-io": "^2.0.0",
     "ponse": "^1.4.1"
   },
   "engines": {
