@@ -1,3 +1,10 @@
+2018.05.02, v2.0.1
+
+feature:
+- (package) files-io v2.0.0
+- (package) eslint-plugin-node v6.0.0
+
+
 2017.07.13, v2.0.0
 
 feature:
