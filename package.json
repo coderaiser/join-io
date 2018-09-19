@@ -30,6 +30,6 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^5.6.0",
-    "eslint-plugin-node": "^6.0.0"
+    "eslint-plugin-node": "^7.0.1"
   }
 }
