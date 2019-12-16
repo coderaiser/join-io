@@ -1,0 +1,13 @@
+{
+    "rules": {
+        "node/no-unsupported-features/node-builtins": "off"
+    },
+    "extends": [
+        "plugin:putout/recommended",
+        "plugin:node/recommended"
+    ],
+    "plugins": [
+        "putout",
+        "node"
+    ]
+}

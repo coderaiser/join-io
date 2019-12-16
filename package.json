@@ -6,8 +6,8 @@
   "homepage": "http://github.com/coderaiser/join-io",
   "main": "lib/join.js",
   "scripts": {
-    "lint:lib": "eslint lib",
-    "lint": "redrun lint:*"
+    "lint": "madrun lint",
+    "fix:lint": "madrun fix:lint"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,9 @@
   "devDependencies": {
     "eslint": "^6.7.2",
     "eslint-plugin-node": "^10.0.0",
-    "redrun": "^7.0.0"
+    "eslint-plugin-putout": "^3.0.0",
+    "madrun": "^5.0.1",
+    "putout": "^7.3.1",
+    "supertape": "^1.2.4"
   }
 }
