@@ -1,3 +1,11 @@
+2020.02.21, v4.0.0
+
+feature:
+- (join-io) drop support of node < 10
+- (package) ponse v5.0.0
+- (package) eslint-plugin-node v11.0.0
+
+
 2019.12.16, v3.0.2
 
 feature:
