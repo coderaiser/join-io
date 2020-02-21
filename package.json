@@ -22,7 +22,7 @@
   ],
   "dependencies": {
     "files-io": "^3.0.0",
-    "ponse": "^4.0.0"
+    "ponse": "^5.0.0"
   },
   "engines": {
     "node": ">=8"
