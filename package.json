@@ -33,7 +33,7 @@
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-putout": "^3.0.0",
     "madrun": "^8.6.2",
-    "putout": "^7.3.1",
+    "putout": "^13.9.1",
     "supertape": "^1.2.4"
   }
 }
