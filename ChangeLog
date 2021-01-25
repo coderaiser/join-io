@@ -1,3 +1,16 @@
+2021.01.25, v5.0.0
+
+feature:
+- (join-io) drop support of node < 14
+- (package) supertape v4.8.1
+- (package) eslint v7.18.0
+- (package) eslint-plugin-putout v6.13.1
+- (package) putout v13.9.1
+- (package) madrun v8.6.2
+- (package) files-io v4.0.0
+- (package) ponse v6.0.0
+
+
 2020.02.21, v4.0.0
 
 feature:
