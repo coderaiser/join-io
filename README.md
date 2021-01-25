@@ -1,8 +1,6 @@
-Join-io
-=======
+# Join-io
 
 Join files on a fly to reduce requests count.
-
 
 ## Install
 
@@ -71,4 +69,3 @@ server.listen(port, ip);
 ## License
 
 MIT
-
