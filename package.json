@@ -27,7 +27,7 @@
     "ponse": "^6.0.0"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=14"
   },
   "license": "MIT",
   "devDependencies": {
